@@ -8,7 +8,7 @@ class TestCubeVolume(unittest.TestCase):
     def test_corrrectness(self):
     	self.assertEqual(cube.vol_of_cube(5), 125)
     	self.assertEqual(cube.vol_of_cube(3), 27)
-    	self.assertEqual(cube.vol_of_cube(0), 0)
+    	self.assertEqual(cube.vol_of_cube(0.5), 0.125)
     	self.assertEqual(cube.vol_of_cube(555), 170953875)
     
     def test_type(self):
