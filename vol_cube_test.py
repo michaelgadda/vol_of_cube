@@ -20,6 +20,7 @@ class TestCubeVolume(unittest.TestCase):
     def test_negative(self): 
     	self.assertEqual(cube.vol_of_cube(-5), "The length needs to be greater than 0")
     	self.assertNotEqual(cube.vol_of_cube(5), "The length needs to be greater than 0")
+        self.assertEqual(cube.vol_of_cube(-5), 125)
     	self.assertEqual(cube.vol_of_cube(-555), "The length needs to be greater than 0")
 
 if __name__ == '__main__': 
